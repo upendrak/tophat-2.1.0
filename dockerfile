@@ -27,10 +27,10 @@ ENV PATH /bowtie2-2.2.5/:$PATH
 ENTRYPOINT ["/usr/bin/tophat-2.1.0.SE.PE.pl"]
 CMD ["-h"]
 
-# Build dockerimage from dockerfile
-# sudo docker build -t"=ubuntu/cufflinks-2.2.1:latest" .
-
+# Build docker
+# sudo docker build -t"=ubuntu/tophat-2.1.0:latest" .
+#
 # cd to sample_files directory and then do test run
-# sudo docker run --rm -v $(pwd):/home/upendra_35/cufflinks-2.2.1/sample_files -w /home/upendra_35/cufflinks-2.2.1/sample_files ubuntu/cufflinks-2.2.1:latest --infile SRR070570_WT.fastq.tophat.bam 
-
+# sudo docker run --rm -v $(pwd):/home/upendra_35/tophat-2.1.0/sample_files -w /home/upendra_35/tophat-2.1.0/sample_files ubuntu/tophat-2.1.0:latest --user_database NC_010473.fa --file_query e_coli_1000_1.fq --file_query2 e_coli_1000_2.fq
+#
 # Push the dockerfile to the gitrepo
