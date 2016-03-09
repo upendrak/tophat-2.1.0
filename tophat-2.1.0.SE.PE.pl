@@ -4,8 +4,8 @@ use File::Basename;
 use Data::Dumper;
 use Getopt::Long qw(:config no_ignore_case no_auto_abbrev pass_through);
 
-use constant TOPHATP    => ('2.1.0'  => '/home/upendra_35/tophat-2.1.0/tophat-2.1.0.Linux_x86_64/');
-use constant BOWTIEP   => ('2.2.5'  => '/home/upendra_35/tophat-2.1.0/bowtie2-2.2.5/');
+use constant TOPHATP    => ('2.1.0'  => '/tophat-2.1.0.Linux_x86_64/');
+use constant BOWTIEP   => ('2.2.5'  => '/bowtie2-2.2.5/');
 
 use constant SAMTOOLSP  => '/usr/bin/samtools/';
 
